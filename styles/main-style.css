@@ -1,0 +1,67 @@
+/* google font cdn link  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* shared styles  */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.btn-primary {
+}
+
+/* header nav styles  */
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container {
+  padding: 38px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo-container {
+  display: flex;
+}
+.nav-logo-container img {
+  width: 50%;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.nav-title {
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+.nav-title > span {
+  color: #ff42a5;
+}
+.nav-items-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+.nav-items-container a {
+  text-decoration: none;
+  color: #3c354f;
+  margin-left: 32px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+}
+.nav-items-btn {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 17px 24px;
+}
+/* header nav styles  */
