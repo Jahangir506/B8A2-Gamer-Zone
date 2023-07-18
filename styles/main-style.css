@@ -64,4 +64,11 @@ header {
   font-weight: 500;
   padding: 17px 24px;
 }
+.youtube-icon {
+  margin-left: 12px;
+  color: #f61c0d;
+}
+.tiktok-icon {
+  margin-left: 10px;
+}
 /* header nav styles  */
