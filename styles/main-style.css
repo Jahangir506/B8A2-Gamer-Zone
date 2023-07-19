@@ -23,7 +23,7 @@ body {
 .banner-btn-container > .btn-secondary {
   background: #4ec5f7;
 }
-.section-title {
+.banner-title {
   color: #0b0223;
   font-size: 48px;
   font-weight: 600;
@@ -119,7 +119,6 @@ nav {
 }
 .banner-description p > .user {
   margin-left: -2px;
-  color: #ff42a5;
 }
 #user {
   margin-left: -2px;

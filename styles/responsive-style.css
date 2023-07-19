@@ -19,5 +19,42 @@
   }
   .nav-items-container .nav-items-btn {
     margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    width: 50%;
+    margin: 80px 0;
+  }
+  .banner-img-content {
+    width: 100%;
+  }
+  .banner-img-content img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .banner-title {
+    white-space: nowrap;
+    font-size: 1.8rem;
+  }
+  .banner-goat {
+    font-size: 3.8rem;
+    margin: 0 auto;
+  }
+  .banner-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn-primary {
+    padding: 13px 25px;
+    font-size: 0.6rem;
+    margin-top: 15px;
+  }
+  .banner-description p {
+    font-size: 0.8rem;
+    margin: 16px 0;
   }
 }
