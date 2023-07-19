@@ -81,6 +81,9 @@ nav {
   margin-left: 12px;
   color: #f61c0d;
 }
+.youtube-icon:hover {
+  transform: scale(0.8);
+}
 .tiktok-icon {
   margin-left: 10px;
 }
@@ -254,7 +257,6 @@ nav {
 /* footer container  */
 .footer-container {
   background-color: #0b0223;
-  width: 1920px;
   height: 636px;
 }
 .footer-logo-container {
