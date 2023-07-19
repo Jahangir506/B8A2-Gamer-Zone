@@ -162,4 +162,7 @@ nav {
 .cards-container div p {
   margin-top: 20px;
 }
+.cards {
+  display: grid;
+}
 /* funny videos section starts here */

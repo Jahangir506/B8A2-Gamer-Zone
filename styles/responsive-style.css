@@ -61,4 +61,17 @@
   .banner-description {
     text-align: start;
   }
+  .videos-cards-container {
+    margin: 0px auto;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+  .cards {
+    justify-items: center;
+  }
+  .cards > p {
+    width: 70%;
+    text-align: center;
+  }
 }
