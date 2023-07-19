@@ -169,6 +169,45 @@ nav {
 .cards {
   display: grid;
 }
+.cards {
+  position: relative;
+}
+/* .play-btn:hover {
+  position: absolute;
+  top: 150px;
+  left: 145px;
+} */
+.cards-play-btn {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../images/Rectangle 7.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 44vh;
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-play-btn {
+  position: relative;
+}
+.watch {
+  position: absolute;
+  top: 210px;
+  left: 105px;
+  color: #ff42a5;
+}
+.play-btn > i {
+  font-size: 44px;
+  color: white;
+}
 /* funny videos section ends here */
 
 /* play instantly section starts here   */
@@ -238,8 +277,8 @@ nav {
   padding: 5px 15px;
 }
 .games-btn:hover {
-  border: 1px solid #ff42a5;
   color: #ff42a5;
+  outline: 1px solid #ff42a5;
 }
 .games {
   display: flex;
@@ -300,8 +339,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   gap: 30px;
+}
+.footer-social a {
+  color: white;
 }
 .footer-social i {
   font-size: 2rem;
