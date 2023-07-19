@@ -74,7 +74,7 @@
     margin: 0px auto;
   }
   .cards-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .card-title {
     font-size: 30px;
@@ -96,6 +96,19 @@
   .cards > p {
     width: 70%;
     text-align: center;
+  }
+  .cards-play-btn {
+    height: 83vh;
+    width: 89%;
+  }
+  .cards-play-btn {
+    position: relative;
+  }
+  .watch {
+    position: absolute;
+    top: 210px;
+    left: 56px;
+    color: #ff42a5;
   }
   .play-instantly-description {
     text-align: center;
