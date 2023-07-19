@@ -128,3 +128,38 @@ nav {
   width: 50%;
 }
 /* banner section styles end here  */
+
+/* funny videos section starts here */
+.videos-cards-container {
+  max-width: 1400px;
+  margin: 120px auto;
+}
+.videos-cards-details {
+  text-align: center;
+}
+.card-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.card-title-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.card-title-description {
+  margin-top: 10px;
+  margin-bottom: 48px;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.cards-container div p {
+  margin-top: 20px;
+}
+/* funny videos section starts here */
