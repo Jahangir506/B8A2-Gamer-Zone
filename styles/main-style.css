@@ -11,10 +11,26 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 .btn-primary {
+  border: 0;
+  padding: 21px 40px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 41px;
+  font-weight: 600;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.banner-btn-container > .btn-secondary {
+  background: #4ec5f7;
+}
+.section-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
 }
 
-/* header nav styles  */
-header {
+/* header nav styles start here */
+nav {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -71,4 +87,44 @@ header {
 .tiktok-icon {
   margin-left: 10px;
 }
-/* header nav styles  */
+/* header nav styles end here */
+
+/* banner section styles start here  */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.banner-content {
+  width: 50%;
+  margin: 148px 0;
+}
+.banner-goat {
+  font-size: 95px;
+  font-weight: 800;
+}
+.banner-description p {
+  margin: 24px 0 17px 0;
+}
+.banner-description-icon {
+  margin-right: 10px;
+}
+.banner-description p > .play-icon {
+  color: #ff42a5;
+}
+.banner-description p > .download-icon {
+  color: #ff42a5;
+}
+.banner-description p > .user {
+  margin-left: -2px;
+  color: #ff42a5;
+}
+#user {
+  margin-left: -2px;
+}
+.banner-img-content {
+  width: 50%;
+}
+/* banner section styles end here  */

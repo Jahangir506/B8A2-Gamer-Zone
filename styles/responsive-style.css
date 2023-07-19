@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-  nav,
+  .nav-container,
   .nav-logo-container,
   .nav-items-container {
     flex-direction: column;
@@ -19,6 +19,5 @@
   }
   .nav-items-container .nav-items-btn {
     margin-top: 40px;
-    width: 100%;
   }
 }
