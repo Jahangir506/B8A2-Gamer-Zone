@@ -56,7 +56,7 @@ nav {
   font-size: 2.9rem;
   font-weight: 700;
 }
-.nav-title > span {
+span {
   color: #ff42a5;
 }
 .nav-items-container {
@@ -139,7 +139,7 @@ nav {
 }
 .card-title {
   color: #0b0223;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
 }
 .card-title-color {
@@ -147,7 +147,7 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
 }
 .card-title-description {
@@ -166,3 +166,37 @@ nav {
   display: grid;
 }
 /* funny videos section starts here */
+
+/* play instantly section starts here   */
+.play-instantly-container {
+  max-width: 1400px;
+  margin: 120px auto;
+}
+.play-instantly-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.play-instantly-details {
+  width: 50%;
+  text-align: end;
+}
+.play-instantly-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.play-instantly-description {
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.play-instantly-img-container {
+  display: flex;
+  justify-content: end;
+}
+.play-instantly-img-container img {
+  width: 80%;
+  object-fit: cover;
+}
+/* play instantly section starts here   */
