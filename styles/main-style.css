@@ -12,10 +12,11 @@ body {
 }
 .btn-primary {
   border: 0;
-  padding: 21px 40px;
+  padding: 19px 34px;
   color: #fff;
-  font-size: 20px;
+  font-size: 1rem;
   margin-top: 41px;
+  margin-right: 5px;
   font-weight: 600;
   border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -25,7 +26,7 @@ body {
 }
 .banner-title {
   color: #0b0223;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -102,7 +103,7 @@ nav {
   margin: 148px 0;
 }
 .banner-goat {
-  font-size: 95px;
+  font-size: 6rem;
   font-weight: 800;
 }
 .banner-description p {
