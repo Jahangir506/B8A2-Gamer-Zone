@@ -14,20 +14,15 @@ body {
   border: 0;
   padding: 19px 34px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 20px;
   margin-top: 41px;
   margin-right: 5px;
   font-weight: 600;
   border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
-.banner-btn-container > .btn-secondary {
+.banner-content > .btn-secondary {
   background: #4ec5f7;
-}
-.banner-title {
-  color: #0b0223;
-  font-size: 3rem;
-  font-weight: 600;
 }
 
 /* header nav styles start here */
@@ -45,19 +40,20 @@ nav {
 }
 .nav-logo-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.nav-title-color {
+  color: #ff42a5;
 }
 .nav-logo-container img {
   width: 50%;
   object-fit: contain;
   margin-right: 20px;
-}
-.nav-title {
-  text-align: center;
-  font-size: 2.9rem;
-  font-weight: 700;
-}
-span {
-  color: #ff42a5;
 }
 .nav-items-container {
   display: flex;
@@ -88,7 +84,6 @@ span {
 .tiktok-icon {
   margin-left: 10px;
 }
-/* header nav styles end here */
 
 /* banner section styles start here  */
 .banner-container {
@@ -102,33 +97,35 @@ span {
   width: 50%;
   margin: 148px 0;
 }
+.banner-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+}
 .banner-goat {
-  font-size: 6rem;
+  font-size: 95px;
   font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.banner-title,
-.banner-goat {
-  width: 400px;
-  margin: 0 auto;
-}
-.banner-description p {
-  margin: 24px 0 17px;
-  width: 300px;
-}
-.banner-description-icon {
+.banner-content > p .banner-description-icon {
   margin-right: 10px;
+  margin-bottom: 10px;
 }
-.banner-description p > .play-icon {
+.banner-content > p .play-icon,
+.download-icon {
   color: #ff42a5;
 }
-.banner-description p > .download-icon {
+/* .banner-content > p  {
   color: #ff42a5;
-}
-.banner-description p > .user {
+} */
+.banner-content > p .user {
   margin-left: -2px;
 }
 #user {
-  margin-left: -2px;
+  margin-left: -5px;
 }
 .banner-img-content {
   width: 50%;
@@ -145,7 +142,7 @@ span {
 }
 .card-title {
   color: #0b0223;
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 700;
 }
 .card-title-color {
@@ -153,8 +150,6 @@ span {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
-  font-weight: 700;
 }
 .card-title-description {
   margin-top: 10px;
@@ -171,7 +166,7 @@ span {
 .cards {
   display: grid;
 }
-/* funny videos section starts here */
+/* funny videos section ends here */
 
 /* play instantly section starts here   */
 .play-instantly-container {
@@ -191,6 +186,13 @@ span {
 .play-instantly-title {
   font-size: 3rem;
   font-weight: 700;
+}
+.play-instant-title-color {
+  color: #ff42a5;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .play-instantly-description {
   color: #534c64;
@@ -248,3 +250,72 @@ span {
   width: 50px;
 }
 /* games button section ends here  */
+
+/* footer container  */
+.footer-container {
+  background-color: #0b0223;
+  width: 1920px;
+  height: 636px;
+}
+.footer-logo-container {
+  width: 900px;
+  height: 636px;
+  margin: auto;
+  padding: 180px 0;
+}
+.footer {
+  margin-bottom: 35px;
+}
+.footers {
+  margin-bottom: 23px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container img {
+  margin-right: 10px;
+}
+.footer-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.footer-title-color {
+  color: #ff42a5;
+}
+.footer-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.footer-details,
+.logo-container > p {
+  color: white;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+.footer-social i {
+  font-size: 2rem;
+}
+.footer-about small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-years {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
