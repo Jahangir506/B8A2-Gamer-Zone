@@ -4,27 +4,23 @@
   .nav-container {
     max-width: 992px;
     padding: 20px 55px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .nav-title {
     font-size: 30px;
+    margin-right: 0px;
   }
   .nav-logo-container img {
     width: 16%;
     object-fit: contain;
     margin-right: 12px;
   }
-  .nav-items-container {
-    margin-left: 18px;
-    font-size: 16px;
-  }
   .nav-items-container a {
-    margin-left: 18px;
-    font-size: 16px;
+    margin-left: 5px;
+    font-size: 14px;
   }
   .nav-items-btn {
-    padding: 15px 10px;
-    font-size: 120px;
+    padding: 13px 6px;
   }
   /* nav section ok  */
 
