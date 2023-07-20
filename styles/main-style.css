@@ -250,13 +250,16 @@ nav {
   object-fit: cover;
   position: relative;
 }
+.play-instantly-img-container img {
+  width: 85%;
+}
 .img {
   position: absolute;
-  bottom: -60px;
-  right: 450px;
+  bottom: -50px;
+  left: 50px;
 }
 .img img {
-  width: 65%;
+  width: 50%;
 }
 /* play instantly section starts here   */
 
@@ -351,7 +354,7 @@ nav {
 .footer-social i {
   font-size: 2rem;
 }
-.footer-about small {
+.footer-about > p {
   display: flex;
   justify-content: center;
   align-items: center;

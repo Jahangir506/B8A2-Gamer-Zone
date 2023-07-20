@@ -48,17 +48,16 @@
   .videos-cards-container {
     max-width: 992px;
     padding: 0 50px;
-    margin: 0 auto;
+    margin: 40px auto;
+  }
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
   }
   .cards img {
-    width: 100%;
+    width: 90%;
   }
   .cards-play-btn {
     position: relative;
-  }
-  .cards-play-btn {
-    width: 100%;
-    background-size: cover;
   }
   .watch {
     position: absolute;
@@ -66,33 +65,32 @@
     left: 105px;
     color: #ff42a5;
   }
-
-  .cards-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .card-title {
     font-size: 30px;
   }
-  .play-instantly-container {
-    margin: 60px 0;
-  }
-  .play-instantly-content {
-    gap: 0;
-  }
   .card-title {
-    font-size: 40px;
+    font-size: 35px;
   }
   .card-title-description {
     font-size: 16px;
   }
   .cards {
     justify-items: center;
+    text-align: center;
+  }
+  .cards > p {
+    font-size: 16px;
   }
   /* video cards  ok*/
 
   /* play instantly section  ok*/
+  .play-instantly-container {
+    max-width: 992px;
+    padding: 0 50px;
+    margin: 100px auto 80px auto;
+  }
   .play-instantly-content {
-    display: flex;
+    gap: 0;
   }
   .play-instantly-details {
     margin-right: 40px;
@@ -104,29 +102,31 @@
     font-size: 15px;
   }
   .play-instantly-img-container {
-    width: 40%;
+    width: 50%;
     margin-left: 50px;
   }
   .play-instantly-img-container img {
-    margin-right: 25px;
+    width: 100%;
   }
   .play-instantly-img-container {
     position: relative;
   }
   .img {
     position: absolute;
-    object-fit: cover;
-    width: 40%;
-    top: 225px;
-    right: 250px;
+    bottom: -40px;
+    left: -45px;
+  }
+  .img img {
+    width: 30%;
   }
   /* play instantly section  ok*/
 
+  /* games section  ok  */
   .games-btn-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    max-width: 900px;
+    max-width: 992px;
     padding: 10px 0;
     margin: 0 10px;
   }
@@ -145,15 +145,24 @@
   .games img {
     width: 40px;
   }
+  /* games section ok*/
+
   .footer-container {
     background-color: #0b0223;
     width: 100%;
     height: 100%;
   }
   .footer-details,
-  .footer-social,
+  .footer-social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
   .footer-about {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
   }
   .footer-logo-container {
     width: 49%;
