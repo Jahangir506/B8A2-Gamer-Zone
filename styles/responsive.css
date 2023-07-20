@@ -1,0 +1,501 @@
+/* tablet responsive  */
+@media screen and (max-width: 992px) {
+  /* nav section ok  */
+  .nav-container {
+    max-width: 992px;
+    padding: 20px 55px;
+    margin: 0 auto;
+  }
+  .nav-items-container a {
+    margin-left: 18px;
+    font-size: 16px;
+  }
+  .nav-items-btn {
+    padding: 15px 10px;
+    font-size: 120px;
+  }
+  /* nav section ok  */
+
+  /* banner section  */
+  .banner-container {
+    max-width: 992px;
+    padding: 0 55px;
+    margin: 0 auto;
+  }
+  .banner-content {
+    margin: 0;
+  }
+  .play-icon {
+    margin-top: 10px;
+  }
+  .user {
+    margin-bottom: 10px;
+  }
+  .banner-title {
+    font-size: 24px;
+  }
+  .banner-goat {
+    font-size: 46px;
+  }
+  .btn-primary {
+    font-size: 11px;
+    margin-top: 10px;
+    padding: 10px 25px;
+  }
+  /* banner section  */
+
+  /* video cards  ok*/
+  .videos-cards-container {
+    max-width: 992px;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .cards img {
+    width: 100%;
+  }
+  .cards-play-btn {
+    position: relative;
+  }
+  .cards-play-btn {
+    width: 100%;
+    background-size: cover;
+  }
+  .watch {
+    position: absolute;
+    top: 210px;
+    left: 105px;
+    color: #ff42a5;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-title {
+    font-size: 30px;
+  }
+  .play-instantly-container {
+    margin: 60px 0;
+  }
+  .play-instantly-content {
+    gap: 0;
+  }
+  .card-title {
+    font-size: 40px;
+  }
+  .card-title-description {
+    font-size: 16px;
+  }
+  .cards {
+    justify-items: center;
+  }
+  /* video cards  ok*/
+
+  /* play instantly section  ok*/
+  .play-instantly-content {
+    display: flex;
+  }
+  .play-instantly-details {
+    margin-right: 40px;
+  }
+  .play-instantly-title {
+    font-size: 34px;
+  }
+  .play-instantly-description {
+    font-size: 15px;
+  }
+  .play-instantly-img-container {
+    width: 40%;
+    margin-left: 50px;
+  }
+  .play-instantly-img-container img {
+    margin-right: 25px;
+  }
+  .play-instantly-img-container {
+    position: relative;
+  }
+  .img {
+    position: absolute;
+    object-fit: cover;
+    width: 40%;
+    top: 225px;
+    right: 250px;
+  }
+  /* play instantly section  ok*/
+
+  .games-btn-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    padding: 10px 0;
+    margin: 0 10px;
+  }
+  .games-btn {
+    border-radius: 46px;
+    padding: 4px 13px;
+  }
+  .games-btn:hover {
+    color: #ff42a5;
+    outline: 1px solid #ff42a5;
+  }
+  .games {
+    font-size: 16px;
+    gap: 6px;
+  }
+  .games img {
+    width: 40px;
+  }
+  .footer-container {
+    background-color: #0b0223;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-details,
+  .footer-social,
+  .footer-about {
+    flex-wrap: wrap;
+  }
+  .footer-logo-container {
+    width: 49%;
+    padding: 70px 0;
+  }
+}
+/* tablet responsive  */
+
+/* large medium mobile responsive   */
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-container,
+  .nav-logo-container,
+  .nav-items-container,
+  .play-instantly-content,
+  .games-btn-container {
+    flex-direction: column;
+  }
+  .nav-logo-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-logo-container img {
+    width: 27%;
+  }
+  .nav-items-container {
+    margin: 42px auto 0 auto;
+  }
+  .nav-items-container a {
+    margin: 18px 0;
+  }
+  .nav-items-container .nav-items-btn {
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    padding: 0 25px;
+  }
+  .banner-content {
+    width: 50%;
+    margin: 80px auto;
+    width: max-content;
+    text-align: center;
+  }
+  .banner-content > p {
+    text-align: start;
+    font-size: 13px;
+    margin-left: 35px;
+  }
+  .banner-content > p .play-icon {
+    margin-top: 20px;
+  }
+  .banner-content > p .user {
+    margin-bottom: 20px;
+  }
+  .banner-img-content,
+  .play-instantly-img-container img,
+  .banner-img-content img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .banner-title {
+    white-space: nowrap;
+    font-size: 1.8rem;
+  }
+  .banner-goat {
+    font-size: 3.8rem;
+    margin: 0 auto;
+  }
+  .btn-primary {
+    padding: 13px 25px;
+    font-size: 0.7rem;
+    margin-top: 15px;
+  }
+  .banner-description {
+    text-align: start;
+  }
+  .videos-cards-container {
+    margin: 0px auto;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+  .card-title {
+    font-size: 50px;
+  }
+  .play-instantly-container {
+    margin: 60px 0;
+  }
+  .play-instantly-content {
+    gap: 0;
+  }
+  .card-title-description,
+  .cards-container {
+    padding: 0 20px;
+    font-size: 13px;
+  }
+  .cards {
+    justify-items: center;
+  }
+  .cards > p {
+    width: 70%;
+    text-align: center;
+  }
+  .cards-play-btn {
+    height: 83vh;
+    width: 89%;
+  }
+  .cards-play-btn {
+    position: relative;
+  }
+  .watch {
+    position: absolute;
+    top: 210px;
+    left: 56px;
+    color: #ff42a5;
+  }
+  .play-instantly-description {
+    text-align: center;
+    font-size: 13px;
+  }
+  .play-instantly-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .play-instantly-description {
+    font-size: 0.9rem;
+    margin: 38px 0 60px 0;
+  }
+  .play-instantly-img-container {
+    width: 75%;
+    justify-content: center;
+  }
+  .games-btn-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    padding: 10px 0;
+    margin: 0 10px;
+  }
+  .games-btn {
+    border-radius: 50px;
+    padding: 5px 7px;
+  }
+  .games-btn:hover {
+    color: #ff42a5;
+    outline: 1px solid #ff42a5;
+  }
+  .games {
+    font-size: 12px;
+    gap: 5px;
+  }
+  .games img {
+    width: 30px;
+  }
+  .footer-container {
+    background-color: #0b0223;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-details,
+  .footer-social,
+  .footer-about {
+    flex-wrap: wrap;
+  }
+  .footer-logo-container {
+    width: 49%;
+    padding: 70px 0;
+  }
+}
+/* large medium mobile responsive   */
+
+/* small medium mobile responsive  */
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-container,
+  .nav-logo-container,
+  .nav-items-container,
+  .play-instantly-content,
+  .games-btn-container {
+    flex-direction: column;
+  }
+  .nav-logo-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-logo-container img {
+    width: 27%;
+  }
+  .nav-items-container {
+    margin: 42px auto 0 auto;
+  }
+  .nav-items-container a {
+    margin: 18px 0;
+  }
+  .nav-items-container .nav-items-btn {
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    padding: 0 25px;
+  }
+  .banner-content {
+    width: 50%;
+    margin: 80px auto;
+    width: max-content;
+    text-align: center;
+  }
+  .banner-content > p {
+    text-align: start;
+    font-size: 13px;
+    margin-left: 35px;
+  }
+  .banner-content > p .play-icon {
+    margin-top: 20px;
+  }
+  .banner-content > p .user {
+    margin-bottom: 20px;
+  }
+  .banner-img-content,
+  .play-instantly-img-container img,
+  .banner-img-content img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .banner-title {
+    white-space: nowrap;
+    font-size: 1.8rem;
+  }
+  .banner-goat {
+    font-size: 3.8rem;
+    margin: 0 auto;
+  }
+  .btn-primary {
+    padding: 13px 25px;
+    font-size: 0.7rem;
+    margin-top: 15px;
+  }
+  .banner-description {
+    text-align: start;
+  }
+  .videos-cards-container {
+    margin: 0px auto;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+  .card-title {
+    font-size: 50px;
+  }
+  .play-instantly-container {
+    margin: 60px 0;
+  }
+  .play-instantly-content {
+    gap: 0;
+  }
+  .card-title-description,
+  .cards-container {
+    padding: 0 20px;
+    font-size: 13px;
+  }
+  .cards {
+    justify-items: center;
+  }
+  .cards > p {
+    width: 70%;
+    text-align: center;
+  }
+  .cards-play-btn {
+    height: 83vh;
+    width: 89%;
+  }
+  .cards-play-btn {
+    position: relative;
+  }
+  .watch {
+    position: absolute;
+    top: 210px;
+    left: 56px;
+    color: #ff42a5;
+  }
+  .play-instantly-description {
+    text-align: center;
+    font-size: 13px;
+  }
+  .play-instantly-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .play-instantly-description {
+    font-size: 0.9rem;
+    margin: 38px 0 60px 0;
+  }
+  .play-instantly-img-container {
+    width: 75%;
+    justify-content: center;
+  }
+  .games-btn-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    padding: 10px 0;
+    margin: 0 10px;
+  }
+  .games-btn {
+    border-radius: 50px;
+    padding: 5px 7px;
+  }
+  .games-btn:hover {
+    color: #ff42a5;
+    outline: 1px solid #ff42a5;
+  }
+  .games {
+    font-size: 12px;
+    gap: 5px;
+  }
+  .games img {
+    width: 30px;
+  }
+  .footer-container {
+    background-color: #0b0223;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-details,
+  .footer-social,
+  .footer-about {
+    flex-wrap: wrap;
+  }
+  .footer-logo-container {
+    width: 49%;
+    padding: 70px 0;
+  }
+}
+/* small medium mobile responsive    */
