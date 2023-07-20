@@ -176,32 +176,35 @@ nav {
   position: relative;
 }
 
-.cards-play-btn {
-  border-radius: 16px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0.6) 100%
-    ),
-    url("../images/Rectangle 7.png"), lightgray 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 44vh;
+.cards {
   width: 100%;
-  font-size: 40px;
-  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cards-img {
+  position: relative;
+}
+.play-btn {
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 15px;
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.cards-play-btn {
-  position: relative;
-}
-.watch {
-  position: absolute;
-  top: 210px;
-  left: 105px;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+  border-radius: 15px;
   color: #ff42a5;
+}
+.play-btn:hover {
+  opacity: 1;
 }
 .play-btn > i {
   font-size: 44px;
