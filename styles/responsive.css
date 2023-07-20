@@ -153,7 +153,8 @@
     height: 100%;
   }
   .footer-details,
-  .footer-social {
+  .footer-social,
+  .footer-about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -261,7 +262,7 @@
   }
   .card-title-description,
   .cards-container {
-    padding: 0 20px;
+    padding: 0 0px;
     font-size: 13px;
   }
   .cards {
@@ -353,6 +354,11 @@
   .games-btn-container {
     flex-direction: column;
   }
+  .nav-container {
+    max-width: 576px;
+    padding: 20px 55px;
+    margin: 0 auto;
+  }
   .nav-logo-container {
     flex-direction: row;
     justify-content: center;
@@ -372,7 +378,9 @@
   }
   .banner-container {
     flex-direction: column-reverse;
-    padding: 0 25px;
+    max-width: 576px;
+    padding: 0px 0px;
+    margin: 0 auto;
   }
   .banner-content {
     width: 50%;
@@ -391,10 +399,9 @@
   .banner-content > p .user {
     margin-bottom: 20px;
   }
-  .banner-img-content,
-  .play-instantly-img-container img,
   .banner-img-content img {
-    width: 100%;
+    width: 80%;
+    margin: 0 38px;
     object-fit: cover;
   }
   .banner-title {
@@ -414,13 +421,15 @@
     text-align: start;
   }
   .videos-cards-container {
-    margin: 0px auto;
+    max-width: 576px;
+    padding: 0px 55px;
+    margin: 0 auto;
   }
   .cards-container {
     grid-template-columns: 1fr;
   }
   .card-title {
-    font-size: 50px;
+    font-size: 40px;
   }
   .play-instantly-container {
     margin: 60px 0;
@@ -428,8 +437,7 @@
   .play-instantly-content {
     gap: 0;
   }
-  .card-title-description,
-  .cards-container {
+  .card-title-description {
     padding: 0 20px;
     font-size: 13px;
   }
@@ -439,6 +447,7 @@
   .cards > p {
     width: 70%;
     text-align: center;
+    font-size: 14px;
   }
   .cards-play-btn {
     height: 83vh;
@@ -453,22 +462,47 @@
     left: 56px;
     color: #ff42a5;
   }
-  .play-instantly-description {
-    text-align: center;
-    font-size: 13px;
+
+  /* play instantly container  */
+  .play-instantly-container {
+    max-width: 992px;
+    padding: 0 50px;
+    margin: 50px auto 80px auto;
+  }
+  .play-instantly-content {
+    gap: 0;
+  }
+  .play-instantly-details {
+    margin-left: 40px;
   }
   .play-instantly-title {
-    font-size: 1.8rem;
-    text-align: center;
+    font-size: 22px;
   }
   .play-instantly-description {
-    font-size: 0.9rem;
-    margin: 38px 0 60px 0;
+    font-size: 13px;
   }
   .play-instantly-img-container {
-    width: 75%;
-    justify-content: center;
+    width: 50%;
+    margin-left: 50px;
   }
+  .play-instantly-img-container img {
+    width: 100%;
+    margin-right: 50px;
+  }
+  .play-instantly-img-container {
+    position: relative;
+  }
+  .img {
+    position: absolute;
+    bottom: -40px;
+    left: -45px;
+  }
+  .img img {
+    width: 30%;
+  }
+  /* .play instantly section */
+
+  /* games section  */
   .games-btn-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -486,12 +520,15 @@
     outline: 1px solid #ff42a5;
   }
   .games {
-    font-size: 12px;
+    font-size: 11px;
     gap: 5px;
   }
   .games img {
     width: 30px;
   }
+  /* games section */
+
+  /* footer section  */
   .footer-container {
     background-color: #0b0223;
     width: 100%;
@@ -500,11 +537,26 @@
   .footer-details,
   .footer-social,
   .footer-about {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .footer-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
   }
   .footer-logo-container {
     width: 49%;
     padding: 70px 0;
   }
+  .footer-about > p {
+    font-size: 11px;
+  }
+  .footer-years {
+    font-size: 9px;
+  }
+  /* footer section  */
 }
 /* small medium mobile responsive    */
