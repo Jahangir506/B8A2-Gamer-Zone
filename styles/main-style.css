@@ -221,7 +221,6 @@ nav {
   gap: 200px;
 }
 .play-instantly-details {
-  width: 50%;
   text-align: end;
 }
 .play-instantly-title {
@@ -246,17 +245,16 @@ nav {
   justify-content: end;
 }
 .play-instantly-img-container {
-  width: 80%;
   object-fit: cover;
   position: relative;
 }
 .play-instantly-img-container img {
-  width: 85%;
+  width: 100%;
 }
 .img {
   position: absolute;
-  bottom: -50px;
-  left: 50px;
+  bottom: -70px;
+  left: -70px;
 }
 .img img {
   width: 50%;
@@ -354,18 +352,18 @@ nav {
 .footer-social i {
   font-size: 2rem;
 }
-.footer-about > p {
+.footer-about {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 35px;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
 }
 .footer-years {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
 }
